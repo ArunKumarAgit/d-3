@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>d3</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./d3.js" defer></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <h1>Arun Reddy the dthree dev</h1>
+    <!-- selector -->
+    <h1>selectors</h1>
+    <div>
+      <h1>
+        META TAG (title): Selectors div { border:2px solid red; margin: 20px;
+        padding:10px; } /*p { color:blue; } #parent3 { background: pink; }
+        .parent { background: gray; } [class] { background: pink; }
+        div[id=parent1] { background: pink; } div:not(#parent1) { background:
+        pink; } div[id^=par] { background: pink; } div[id*=ent] { background:
+        pink; } */ div[id$="2"] { background: pink; } First Paragraph First Span
+        Second Paragraph Third Paragraph Fourth Paragraph Second Span First Span
+        First Paragraph Second Paragraph Second Span Third Paragraph • One • Two
+        • Three • Four
+      </h1>
+      <h1>
+        META TAG (title): Selectors div { border:2px solid red; margin: 20px;
+        padding:10px; } /*span:first-child { background: pink; } p:last-child {
+        background: red; } p:first-of-type { background: pink; }
+        span:last-of-type { background: red; } span:nth-child(2) { color:red; }
+        p:nth-last-child(3) { color:red; } p:only-child { color:red; }
+        span:only-of-type { color:blue; } #parent3 > ol { background: red; }
+        #parent2 > span { color:red; }*/ #parent3 li { color:blue; } ol > li {
+        background: pink; } First Paragraph First Span Second Paragraph Third
+        Paragraph Fourth Paragraph Second Span First Paragraph Second Paragraph
+        Second Span Third Paragraph • One • Two • Three • Four
+      </h1>
+    </div>
+    <h2>basics of svg</h2>
+    <h1>scalar vector graphics</h1>
+    <svg height="400" width="400">
+      <rect x="100" y="100"></rect>
+    </svg>
+  </body>
+</html>

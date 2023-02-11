@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+	color: blueviolet;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+[id] {
+	background-color: antiquewhite;
+}
+
+div:not(#class) {
+	background-color: rgb(55, 190, 190);
+}
